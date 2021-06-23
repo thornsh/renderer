@@ -1,0 +1,17 @@
+{
+  "name": "@thornsh-renderer/v-node",
+  "version": "1.0.0",
+  "description": "VNode",
+  "main": "index.js",
+  "author": "thornsh",
+  "license": "MIT",
+  "dependencies": {
+    "vite": "^2.3.8"
+  },
+  "scripts": {
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "@types/node": "^15.12.4"
+  }
+}

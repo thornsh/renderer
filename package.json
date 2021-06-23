@@ -1,0 +1,18 @@
+{
+  "name": "thornsh-renderer",
+  "version": "1.0.0",
+  "description": "a renderer for me",
+  "main": "index.js",
+  "author": "thornsh",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "yarn workspaces run build"
+  },
+  "devDependencies": {
+    "@types/node": "^15.12.4"
+  }
+}
